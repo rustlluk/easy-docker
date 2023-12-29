@@ -119,3 +119,6 @@ and set in the Docker.
 To make it work on docker desktop, you will have to set some variables set in the end of [deploy.py](Docker/deploy.py)
 (all volume connections to docker, environment variables etc.) by hand in docker-desktop environment. And then maybe... 
 **However, be clever and use Linux for programming and robotics stuff.**
+
+# Acknowledgments
+The script [create_xauth.py](Docker/create_xauth.py) is based on [https://github.com/luiscarlosgph/dockerx/tree/main](https://github.com/luiscarlosgph/dockerx/tree/main). Thanks!
